@@ -1,4 +1,4 @@
-// script.js
+
 const cards = document.querySelectorAll('.card');
 let currentIndex = 0;
 
@@ -23,8 +23,8 @@ function nextCard() {
   updateCards();
 }
 
-// Initialize the slider
+// moving
 updateCards();
 
-// Automate the slider
+
 setInterval(nextCard, 0.5); // Changes card every 1 seconds
